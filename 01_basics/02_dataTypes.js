@@ -17,3 +17,29 @@ console.log(typeof valueinNumber);
 
 let value=3
 let negValue=-value
+
+// **********data types************
+//primitve
+//7 types:string,number etc
+
+//r3ference(non primitve)
+//array,object,etc 
+
+//raed data types official documentation of js 
+
+//***************************** */
+
+//stack(primitive, Heap(NON-Primitive)
+
+let userone={
+    email:"abc@gmail.com",
+    upi:"abcd@ybl"
+}
+let userTwo=userone
+
+userTwo.email="bac@gmail.com"
+
+//(object)-since both are reference to one memomery in heap
+console.log(userone.email);
+console.log(userTwo.email);
+
