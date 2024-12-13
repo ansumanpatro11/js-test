@@ -1,0 +1,10 @@
+global execution context
+function execution context
+
+{}-memory creation phase
+execution phase
+
+1-global execution phase (this is referred)
+2-Memory phase
+3-execution phase 
+ 
